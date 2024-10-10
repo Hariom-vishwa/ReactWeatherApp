@@ -159,5 +159,14 @@ html {
 
 .h1Error{
   text-align: center;
-  color: rgb(163, 0, 0);
+  animation: h1Blink 2s ease 0s infinite;
+}
+
+@keyframes h1Blink {
+  from{
+    color: rgb(163, 0, 0);
+  }
+  to{
+    color: tomato;
+  }
 }
