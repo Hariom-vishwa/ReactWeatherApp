@@ -156,3 +156,8 @@ html {
   width: 30px;
   height: 30px;
 }
+
+.h1Error{
+  text-align: center;
+  color: rgb(163, 0, 0);
+}
